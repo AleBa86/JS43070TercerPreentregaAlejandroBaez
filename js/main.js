@@ -1,38 +1,38 @@
 const contenedor = document.getElementById("contenedor");
 const contenedor1 = document.getElementById("contenedor1");
 
-//const accesoUsuarios = document.getElementById("login");
+const accesoUsuarios = document.getElementById("login");
 
-// let productos = [
-//   {
-//     id: 1,
-//     nombre: "Planta 1",
-//     precio: 1000,
-//     img: "../assets/images/galeria05-640x503.webp",
-//   },
-//   {
-//     id: 2,
-//     nombre: "Planta 2",
-//     precio: 2000,
-//     img: "../assets/images/galeria02-640x690.webp",
-//   },
-//   {
-//     id: 3,
-//     nombre: "Planta 3",
-//     precio: 3000,
-//     img: "../assets/images/galeria03-640x503.webp",
-//   },
-//   {
-//     id: 4,
-//     nombre: "Planta 4",
-//     precio: 4000,
-//     img: "../assets/images/galeria04-640x360.webp",
-//   },
-// ];
+ let productos = [
+   {
+    id: 1,
+     nombre: "Planta 1",
+     precio: 1000,
+     img: "../assets/images/galeria05-640x503.webp",
+   },
+   {
+     id: 2,
+     nombre: "Planta 2",
+     precio: 2000,
+     img: "../assets/images/galeria02-640x690.webp",
+   },
+   {
+     id: 3,
+     nombre: "Planta 3",
+     precio: 3000,
+     img: "../assets/images/galeria03-640x503.webp",
+   },
+   {
+     id: 4,
+     nombre: "Planta 4",
+     precio: 4000,
+     img: "../assets/images/galeria04-640x360.webp",
+   },
+ ];
 
-//localStorage.setItem("productos", JSON.stringify(productos));
+localStorage.setItem("productos", JSON.stringify(productos));
 
-let productos = JSON.parse(localStorage.getItem("productos"));
+//let productos = JSON.parse(localStorage.getItem("productos"));
 let carrito = document.getElementById("carrito");
 
 function limpiarContenedor() {
