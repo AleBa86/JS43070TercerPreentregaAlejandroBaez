@@ -1,4 +1,7 @@
-#divForm{
-    padding-top: 10px;
-    padding-bottom: 10px;
+#botonEliminar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cards{
+    width: 25rem;
 }
